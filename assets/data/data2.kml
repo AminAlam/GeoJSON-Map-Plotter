@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>After 20th of March 2023</name>
+    <Style id="icon-1899-F57C00-nodesc-normal">
+      <IconStyle>
+        <color>ff007cf5</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-F57C00-nodesc-highlight">
+      <IconStyle>
+        <color>ff007cf5</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-F57C00-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-F57C00-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-F57C00-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>مدرسه‌ی دخترانه‌ی معصومه</name>
+      <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          47.0962167,34.3356816,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>دبیرستان فرزانگان 1 (دوره اول و دوم)</name>
+      <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          47.0145303,35.2939671,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Bent-ol-Hoda School</name>
+      <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          51.3060132,35.7499626,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>فرزانگان ۲ دوره دوم(gifted school for girls)</name>
+      <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          45.0716458,37.5549513,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>عجب شیر ۱</name>
+      <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          45.8934364,37.4780827,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>بروجرد ۱</name>
+      <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          48.7648773,33.8978354,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Shahid Sadr Girls High School</name>
+      <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          50.9693122,35.8567187,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Kherad school</name>
+      <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          51.5228447,32.628236,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>دبستان ندای زهرا</name>
+      <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          51.6661923,32.6223821,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>مدرسه معراج</name>
+      <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          46.2704524,36.2419654,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>دبیرستان دخترانه معراج دانش</name>
+      <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          48.2834576,38.2466263,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>دبستان دخترانه سعدی</name>
+      <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          45.0715259,37.5499069,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>مدرسه فردای اردبیل</name>
+      <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          48.2794153,38.2372703,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>مدرسه معراج</name>
+      <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          48.2694733,38.2640117,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>مدرسه شهید خلبان ذاکر
+</name>
+      <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          48.291698,38.2523836,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>مدرسه نمونه دخترانه بهاران</name>
+      <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          47.6779452,38.3976873,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>مدرسه شاهد</name>
+      <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          45.3930222,36.956633,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>مدرسه فدک</name>
+      <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          45.3932797,36.9551926,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>مدرسه پروین اعتصامی</name>
+      <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          47.0238682,35.9156408,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>مدرسه بنت الهدی</name>
+      <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          47.024984,35.9157277,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>مدرسه سعدی</name>
+      <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          45.0642232,37.5517283,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>مدرسه خیام</name>
+      <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          51.8006397,35.7447426,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>دبیرستان هاجر</name>
+      <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          49.5293454,31.4440934,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Tabriz1</name>
+      <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          46.2958487,38.0747375,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Mahmodabad1</name>
+      <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          52.2633067,36.6333354,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>نقده۱</name>
+      <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          45.3858125,36.9580733,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>نقده۲</name>
+      <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          45.3833234,36.9584162,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>عجب شیر۲</name>
+      <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          45.8959255,37.4774697,0
+        </coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>
