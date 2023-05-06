@@ -1,4 +1,4 @@
-from configs import work_dir, click, np, plt, gpd, KMeans, Path
+from configs import work_dir, click, np, plt, KMeans, Path
 import utils
 
 @click.command()
