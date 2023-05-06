@@ -2,12 +2,11 @@ from configs import work_dir, click, np, plt, KMeans, Path
 import utils
 
 @click.command()
-@click.option('--geojson_file_path', '-gfp', default=Path.joinpath(work_dir, 'assets', 'geojsons', 'Iran.geojson') , help='Geojson file containing the coordinates of the states in Iran', required=True)
-@click.option('--coordinates_file_paths', '-cfp', help='List of coordinates file paths - should be .kml files', multiple=True, required=True,
-               default=[Path.joinpath(work_dir, 'assets', 'data', 'data1.kml'), Path.joinpath(work_dir, 'assets', 'data', 'data2.kml')])
-@click.option('--nums_clusters', '-nc', help='List of number of clusters for each coordinates file. If zero, no clustering will be done for the corresponding coordinates file', multiple=True, required=True, default=[0, 0])
-@click.option('--colors', '-c', help='List of colors for each coordinates file.', multiple=True, required=True, default=['red', 'blue'])
-@click.option('--labels', '-l', help='List of labels for each coordinates file. If empty, no labels will be shown for the corresponding coordinates file', multiple=True, required=False, default=None)
+@click.option('--geojson_file_path', '-gfp' , help='Geojson file containing the coordinates of the states in Iran', required=True)
+@click.option('--coordinates_file_paths', '-cfp', help='List of coordinates file paths - should be .kml files', multiple=True, required=True)
+@click.option('--nums_clusters', '-nc', help='List of number of clusters for each coordinates file. If empty, no clustering will be done. If an element is 0, no clustering will be done for the corresponding coordinates file', multiple=True, required=False, default=[])
+@click.option('--colors', '-c', help='List of colors for each coordinates file. If empty, random colors will be chosen for the corresponding coordinates file', multiple=True, required=False, default=[])
+@click.option('--labels', '-l', help='List of labels for each coordinates file. If empty, no labels will be shown for the corresponding coordinates file', multiple=True, required=False, default=[])
 @click.option('--title', default=None, help='Title of the map')
 @click.option('--save_path', default='map.png', help='Path to save the map - indicate the name of the file with extension. If None, the map will not be saved')
 def main(geojson_file_path, coordinates_file_paths, nums_clusters, colors, labels, title, save_path):
@@ -21,7 +20,7 @@ def main(geojson_file_path, coordinates_file_paths, nums_clusters, colors, label
     for i in range(len_files):
 
         coordinates = utils.import_coords(coordinates_file_paths[i])
-        num_clusters = nums_clusters[i]
+        num_clusters = int(nums_clusters[i])
         color = colors[i]
         if len(labels) != 0:
             label = labels[i]
