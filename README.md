@@ -60,6 +60,14 @@ Options:
   --help                          Show this message and exit.
 
 ```
+## Example
+
+Exectue the following command to get simialr figure as the one in this README header:
+
+```
+python3 src/main.py -gfp test_data/geojsons/Iran.geojson -cfp test_data/data/data1.kml -cfp test_data/data/data2.kml  -nc 40 -nc 10 -l "Data 1" -l "Data 2" -c red -c blue --title 'GeoJSON Map Plotter' --save_path '~/Documents/map.svg'
+```
+
 
 ## License
 
