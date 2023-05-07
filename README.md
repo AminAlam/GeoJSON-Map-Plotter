@@ -1,5 +1,5 @@
 <div align="center">
-<img src="https://user-images.githubusercontent.com/50844047/236647230-57a576a8-72bd-4471-9e3b-5787d4a47f34.png" width=60%>
+<img src="https://user-images.githubusercontent.com/50844047/236677918-a44e2371-6d24-48a4-a4b9-0c84996d623c.png" width=60%>
 <br/>
 <h1>GeoJSON Map Plotter</h1>
 <br/>
@@ -51,21 +51,19 @@ Options:
                                   empty, random colors will be chosen for the
                                   corresponding coordinates file
   -l, --labels TEXT               List of labels for each coordinates file. If
-                                  empty, no labels will be shown for the
-                                  corresponding coordinates file
+                                  empty, no labels will be shown
   --title TEXT                    Title of the map
   --save_path TEXT                Path to save the map - indicate the name of
                                   the file with extension. If None, the map
                                   will not be saved
   --help                          Show this message and exit.
-
 ```
 ## Example
 
 Exectue the following command to get simialr figure as the one in this README header:
 
 ```
-python3 src/main.py -gfp test_data/geojsons/Iran.geojson -cfp test_data/data/data1.kml -cfp test_data/data/data2.kml  -nc 40 -nc 10 -l "Data 1" -l "Data 2" -c red -c blue --title 'GeoJSON Map Plotter' --save_path '~/Documents/map.svg'
+python3 src/main.py -gfp test_data/geojsons/Iran.geojson -cfp test_data/data/data1.kml -cfp test_data/data/data2.kml  -nc 40 -nc 10 -l "Data 1" -l "Data 2" --title 'GeoJSON Map Plotter' --save_path '~/Documents/map.svg'
 ```
 
 
