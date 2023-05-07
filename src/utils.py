@@ -22,6 +22,6 @@ def import_geojson(geojson_file_path: str) -> gpd.GeoDataFrame:
     return geojson_data
 
 def check_lengths(coordinates_file_paths: list, nums_clusters: list, colors: list, labels: list) -> None:
-    if len(coordinates_file_paths) != len(nums_clusters) or len(coordinates_file_paths) != len(colors) or (len(labels)!=0 and len(coordinates_file_paths) != len(labels) ):
-        raise Exception('Length of coordinates_file_paths, nums_clusters, colors and labels should be the same')
+    if (len(coordinates_file_paths) != len(nums_clusters) and len(nums_clusters) != 0)  or (len(coordinates_file_paths) != len(colors) and len(colors) != 0) or (len(labels)!=0 and len(coordinates_file_paths) != len(labels) ):
+        raise Exception('Length of coordinates_file_paths, colors (if given), labels (if given) and nums_clusters (if given) should be the same')
     
